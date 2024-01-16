@@ -2,10 +2,10 @@ import { SlHome } from "react-icons/sl";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { IoReload } from "react-icons/io5";
 import { CgMaximize } from "react-icons/cg";
-import { GoPlus } from "react-icons/go";
+import { FaPlus } from "react-icons/fa6";
 const Raf = () => {
   return (
-    <div className="container mx-auto">
+    <>
       <div className="flex items-center gap-1">
         {/* Path Indicator */}
         <SlHome />
@@ -61,10 +61,10 @@ const Raf = () => {
         </p>
       </div>
       {/* Powered by And  Create Falscard Section */}
-      <div className="flex justify-between">
+      <div className="flex justify-between mt-[80px]">
         <div className="flex  items-center gap-[20px]">
           <img
-            className="h-[100px] w-[100px] p-4 rounded-full shadow-2xl shadow-[#2284F1] "
+            className="h-[100px] w-[100px] p-4 rounded-full shadow-[0_0_40px_#AECDF1]"
             src="https://i.ibb.co/zPT4KcS/Untitled-design.png"
             alt=""
           />
@@ -105,15 +105,15 @@ const Raf = () => {
           </div>
         </div>
         {/* Create FlashCard Section */}
-        <div className="flex ">
+        <div className="flex justify-center items-center gap-2">
           <p
-            className="p-2 rounded-full "
-            style={{background: "linear-gradient(180deg, #06286E 0%, #164EC0 100%)",}}><GoPlus />
+            className="p-2 rounded-full text-white"
+            style={{background: "linear-gradient(180deg, #06286E 0%, #164EC0 100%)"}}><FaPlus size={26} />
           </p>
           <p className="text-[28px] font-semibold">Create Flashcard</p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

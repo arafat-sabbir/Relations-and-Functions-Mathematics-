@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <div
-      className="flex py-6 justify-between items-center container mx-auto
+      className="flex py-6 justify-between items-center 
     "
     >
       {/* Logo section */}
